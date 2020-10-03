@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="24dp"
+    android:fontFamily="@font/bold"
+    android:text="JET LAG?"
+    android:textColor="#fff"
+    android:textSize="38dp"
+/>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/airp" />
+
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_f"
+        android:layout_marginTop="100dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+
+    <AutoCompleteTextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+android:textSize="16sp"
+        android:background="@drawable/input_f"
+        android:layout_marginTop="20dp"
+        android:id="@+id/start1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:completionHint="Select Country"
+        android:completionThreshold="1"
+        android:hint="Start Country" />
+    <AutoCompleteTextView
+        android:textSize="16sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input_f"
+        android:layout_marginTop="20dp"
+        android:id="@+id/target1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:completionHint="Select Country"
+        android:completionThreshold="1"
+        android:hint="Target Country" />
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:clickable="true"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/input_f"
+            android:layout_marginRight="4dp"
+            android:id="@+id/takeoff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:hint="Take off date" />
+        <TextView
+            android:clickable="true"
+            android:editable="false"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/input_f"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/landing"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:hint="Landing  date" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/nxt"
+        android:text="Next"
+        android:textColor="#fff"
+        android:fontFamily="@font/bold"
+        android:background="@drawable/button_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+</LinearLayout>

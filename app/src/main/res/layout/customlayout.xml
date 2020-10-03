@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:background="@drawable/txttbg"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/txt_list"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:textSize="24sp"
+    android:fontFamily="@font/bold"
+    android:textColor="#000"/>
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+android:text="Sleep at :"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_weight="1"
+
+    android:textSize="20sp"
+    android:fontFamily="@font/light"
+    android:textColor="#000"/>
+    <TextView
+android:id="@+id/list_sleep"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_weight="1"
+
+        android:textSize="20sp"
+        android:fontFamily="@font/bold"
+        android:textColor="#000"/>
+    <TextView
+        android:text="Wake at :"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textSize="20sp"
+        android:fontFamily="@font/light"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/list_wake"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:textSize="20sp"
+        android:fontFamily="@font/bold"
+        android:textColor="#000"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Expose to Sunlight/use light box (before sleep) :"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+
+                android:textSize="20sp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/list_expose"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="20sp"
+                android:fontFamily="@font/bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="use sun glass (after sleep) :"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+
+                android:textSize="20sp"
+                android:fontFamily="@font/light"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/list_dark"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="20sp"
+                android:fontFamily="@font/bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
